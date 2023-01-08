@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #c870c8;
     height: 100vh;
     width: 100vw;
 }
@@ -37,11 +37,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0ox 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-moose-photos-1038002.jpg) no-repeat; 
+    background: #c870c8 url(../imagens/pexels-moose-photos-1038002.jpg) no-repeat; 
     background-size: cover;
     background-position: left bottom;
     height: 200px;
